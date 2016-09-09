@@ -1,12 +1,26 @@
 body {
-	background: #f1f1f1 url(../images/bg.png) repeat;
-	color: #606060;
 	font-family: 'Roboto Condensed';
 	font-size: 14px;
-	padding: 0;
-	margin: 0;
 }
 
-#id {
-    margin: 0 auto;
+header, footer {
+  background-color: grey;
+  clear: left;
+  text-align: center;
+}
+
+.events {
+  background-color: orange;
+}
+
+.alarms {
+  background-color: red;
+}
+
+.highlights {
+  background-color: blue;
+}
+
+.container-data {
+  background-color: green;
 }

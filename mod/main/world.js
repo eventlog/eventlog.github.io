@@ -1,9 +1,9 @@
-regions = ["region_moscow"]
+regions = ["region_gallia", "region_italia"]
 
 provinces = {
-    province_moskva: {
-        name: "Moskva",
-        region: "region_moscow",
+    province_roma: {
+        name: "Roma",
+        region: "region_rome",
         connections: [ "province_tver" ],
         resource: [],
         z: 9000

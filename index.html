@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <!-- Layout
@@ -6,10 +7,10 @@
   | delayed messagebox | event log | highlights |
   | notifications      |    ...    |    ...     |
   
-  messagebox 640 x 640 
+  messagebox 400 x 400
       picture + text
       
-  highlights 320 x h
+  highlights 400 x h
   
   -->
 
@@ -24,24 +25,18 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body onload="start()">
-  <header></header>
-  <span id="firstcol">
-    <div id="event"></div>
-    <div id="notifications></div>
-  </span>
-  <span id="log">
-    <div id="event"></div>
-    <div id="notifications></div>
-  </span>
-  <span id="highlights"></span>
-
-  <div id="messagebox">Loading...<br/>
-  <iframe width="960" height="720" src="https://www.youtube.com/embed/PrIk6dKcdoU?controls=0" frameborder="0" allowfullscreen></iframe><!-- move to setvideo -->
+  <div class="container-vertical">
+    <div class="container-horizontal">
+      <header>Buttons here</header>
+      <div class="container-data">
+        <div class="container-events">
+          <div class="events">Loading events...</div>
+          <div class="alarms">Loading events...</div>
+        </div><div class="log">Loading event log...</div><div class="highlights">Loading highlights</div>
+      </div>
+      <footer>Buttons here</footer>
+    </div>
   </div>
-
-	test
-  <div id="log">Loading...</div>
-  <footer></footer>
 </body>
 </html>
 
